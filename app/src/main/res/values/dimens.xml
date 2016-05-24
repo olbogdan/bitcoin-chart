@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- font sizes -->
+    <dimen name="font_larger"   >22sp</dimen>
+    <dimen name="font_large"    >18sp</dimen>
+    <dimen name="font_normal"   >15sp</dimen>
+    <dimen name="font_small"    >12sp</dimen>
+
+    <!-- typical spacing between two views -->
+    <dimen name="spacing_huge"  >40dp</dimen>
+    <dimen name="spacing_large" >24dp</dimen>
+    <dimen name="spacing_normal">14dp</dimen>
+    <dimen name="spacing_small" >10dp</dimen>
+    <dimen name="spacing_tiny"  >4dp</dimen>
+
+    <!-- line chart view dimensions -->
+    <dimen name="line_chart_tag_padding"  >2dp</dimen>
+    <dimen name="line_chart_graph_padding"  >30dp</dimen>
+    <dimen name="line_chart_dot_radius"  >5dp</dimen>
+    <dimen name="line_chart_grid_paint_stroke"  >1dp</dimen>
+    <dimen name="line_chart_grid_dash_line"  >4dp</dimen>
+    <dimen name="line_chart_grid_dash_space"  >2dp</dimen>
+    <dimen name="line_chart_lines_stroke"  >2dp</dimen>
+    <dimen name="line_chart_tag_stroke"  >5dp</dimen>
+
+
+</resources>

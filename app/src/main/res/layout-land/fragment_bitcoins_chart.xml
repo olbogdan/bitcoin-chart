@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <HorizontalScrollView
+        android:id="@+id/fragment.bitcoins.scrollview"
+        android:layout_width="match_parent"
+        android:layout_weight="0.5"
+        android:layout_height="match_parent">
+
+        <view
+            android:id="@+id/fragment.bitcoins.chart"
+            class="in.flinbor.bitcoin.view.view.LineChartView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </HorizontalScrollView>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/TitleText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:padding="@dimen/spacing_small"
+            android:text="@string/bitcoin.chart.fragment.chart.name" />
+
+        <TextView
+            android:id="@+id/fragment.bitcoins.exchange.rate"
+            style="@style/TitleText"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginTop="@dimen/spacing_huge"
+            android:layout_gravity="end"
+            android:gravity="bottom"
+            android:layout_marginRight="@dimen/spacing_normal"
+            tools:drawableLeft="@drawable/arrow_top"
+            tools:text="265" />
+
+        <TextView
+            android:id="@+id/fragment.bitcoins.dynamics.value"
+            style="@style/ContentText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/spacing_normal"
+            android:layout_gravity="end"
+            tools:text="-3.43" />
+
+        <TextView
+            android:id="@+id/fragment.bitcoins.dynamics.percent"
+            style="@style/ContentText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/spacing_normal"
+            android:layout_gravity="end"
+            tools:text="(-0.84%)" />
+    </LinearLayout>
+</LinearLayout>

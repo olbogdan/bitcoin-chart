@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/flinbor/AndroidStudioProjects/actify/BitcoinChart/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="/Users/flinbor/AndroidStudioProjects/actify/BitcoinChart/app/build/intermediates/pre-dexed/minSdk22/debug/com.android.support-design-23.4.0_5648baf6f0e0fff95f06de2e222ef7e84d70505b.jar" />
+    </item>
+    <item
+        jar="/Users/flinbor/AndroidStudioProjects/actify/BitcoinChart/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/Users/flinbor/AndroidStudioProjects/actify/BitcoinChart/app/build/intermediates/pre-dexed/minSdk22/debug/com.android.support-recyclerview-v7-23.4.0_70d2d8c6d4ed6868c9e3388b1d9e881ec426f4d1.jar" />
+    </item>
+    <item
+        jar="/Users/flinbor/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/Users/flinbor/AndroidStudioProjects/actify/BitcoinChart/app/build/intermediates/pre-dexed/minSdk22/debug/support-annotations-23.4.0_81a3379b1a56c3510919e2f8947ad4e6e08f6ff7.jar" />
+    </item>
+    <item
+        jar="/Users/flinbor/AndroidStudioProjects/actify/BitcoinChart/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/flinbor/AndroidStudioProjects/actify/BitcoinChart/app/build/intermediates/pre-dexed/minSdk22/debug/internal_impl-23.4.0_ec6ea8a862d140ad3439b8bfc240c4d9b996122b.jar" />
+    </item>
+    <item
+        jar="/Users/flinbor/AndroidStudioProjects/actify/BitcoinChart/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/flinbor/AndroidStudioProjects/actify/BitcoinChart/app/build/intermediates/pre-dexed/minSdk22/debug/com.android.support-animated-vector-drawable-23.4.0_87793f5909e3872572ac676fdad96a010b799ad2.jar" />
+    </item>
+    <item
+        jar="/Users/flinbor/AndroidStudioProjects/actify/BitcoinChart/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/flinbor/AndroidStudioProjects/actify/BitcoinChart/app/build/intermediates/pre-dexed/minSdk22/debug/com.android.support-support-vector-drawable-23.4.0_20916c1a4514c2ae391807557db9c926804b3826.jar" />
+    </item>
+    <item
+        jar="/Users/flinbor/AndroidStudioProjects/actify/BitcoinChart/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/flinbor/AndroidStudioProjects/actify/BitcoinChart/app/build/intermediates/pre-dexed/minSdk22/debug/com.android.support-support-v4-23.4.0_0a7f601226164a897ecfc09d5555bb40508331fb.jar" />
+    </item>
+    <item
+        jar="/Users/flinbor/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.6.2/f1bc476cc167b18e66c297df599b2377131a8947/gson-2.6.2.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="f1bc476cc167b18e66c297df599b2377131a8947">
+        <dex dex="/Users/flinbor/AndroidStudioProjects/actify/BitcoinChart/app/build/intermediates/pre-dexed/minSdk22/debug/gson-2.6.2_a1f982a1ef31b55d9e23a89ed7fda26bf76ec3a8.jar" />
+    </item>
+    <item
+        jar="/Users/flinbor/AndroidStudioProjects/actify/BitcoinChart/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/flinbor/AndroidStudioProjects/actify/BitcoinChart/app/build/intermediates/pre-dexed/minSdk22/debug/com.android.support-appcompat-v7-23.4.0_88307ea20af6ce0a543fd2153d670a9d0f30512b.jar" />
+    </item>
+
+</items>

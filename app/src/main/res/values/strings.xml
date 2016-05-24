@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Bitcoin chart</string>
+    <string name="bitcoin.chart.fragment.chart.name">Bitcoin Market Price (USD)</string>
+</resources>

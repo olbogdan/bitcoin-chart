@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="in.flinbor.bitcoin">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:name="in.flinbor.bitcoin.app.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:hardwareAccelerated="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="in.flinbor.bitcoin.view.activity.MainActivity"
+            android:hardwareAccelerated="false">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="in.flinbor.bitcoin.executorservice.CommandExecutorService"
+            android:exported="false"/>
+        <provider
+            android:name="in.flinbor.bitcoin.contentprovider.BitcoinProvider"
+            android:authorities="in.flinbor.bitcoin.contentprovider.BitcoinProvider"
+            android:exported="true"
+            android:multiprocess="true" >
+        </provider>
+    </application>
+
+</manifest>
